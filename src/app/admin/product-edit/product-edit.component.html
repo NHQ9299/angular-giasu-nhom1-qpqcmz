@@ -1,0 +1,21 @@
+<h2>SỬA THÔNG TIN TÀI KHOẢN</h2>
+<br>
+<form *ngIf="product">
+  <div class="form-group" >
+    <label for="">Tên Đăng Nhập</label>
+    <input type="text" class="form-control" name="name" [(ngModel)]="product.name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Mật Khẩu</label>
+    <input type="text" min="1" class="form-control" name="pass" [(ngModel)]="product.pass">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Họ Tên</label>
+    <input type="text" min="1" class="form-control" name="hoten" [(ngModel)]="product.hoten">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">E-mail</label>
+    <input type="text" min="1" class="form-control" name="email" [(ngModel)]="product.email">
+  </div>
+  <button type="button" class="btn btn-primary" (click)="update()">Lưu Thay Đổi</button>
+</form>

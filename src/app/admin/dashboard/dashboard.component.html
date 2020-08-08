@@ -1,0 +1,100 @@
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<div class="main-content">
+
+  <!-- content -->
+  <div class="container-fluid content-top-gap">
+    <div class="welcome-msg pt-3 pb-4">
+      <h1> <span class="text-primary">Doashboard</span></h1>
+      <p>Very detailed &amp; featured admin.</p>
+    </div>
+    <!-- statistics data -->
+   <div class="row clearfix">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box bg-pink hover-expand-effect">
+                        <div class="icon">
+                          <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="content">
+                            <div class="text">NEW TASKS</div>
+                            <div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20">125</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box bg-cyan hover-expand-effect">
+                        <div class="icon">
+                          <i class="fa fa-question-circle" aria-hidden="true"></i>
+                        </div>
+                        <div class="content">
+                            <div class="text">NEW TICKETS</div>
+                            <div class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">257</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box bg-light-green hover-expand-effect">
+                        <div class="icon">
+                         <i class="fa fa-comments-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="content">
+                            <div class="text">NEW COMMENTS</div>
+                            <div class="number count-to" data-from="0" data-to="243" data-speed="1000" data-fresh-interval="20">243</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box bg-orange hover-expand-effect">
+                        <div class="icon">
+                        <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                        </div>
+                        <div class="content">
+                            <div class="text">NEW VISITORS</div>
+                            <div class="number count-to" data-from="0" data-to="1225" data-speed="1000" data-fresh-interval="20">1225</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!-- charts -->
+    <div class="chart">
+      <div class="row">
+        <div class="col-lg-6 pr-lg-2 chart-grid">
+          <div class="card text-center card_border">
+            <div class="card-header chart-grid__header">
+              Bar Chart
+            </div>
+            <div class="card-body">
+              <!-- bar chart -->
+              <div id="container"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                <canvas id="barchart" width="1260" height="630" class="chartjs-render-monitor" style="display: block; height: 350px; width: 700px;"></canvas>
+              </div>
+              <!-- //bar chart -->
+            </div>
+            <div class="card-footer text-muted chart-grid__footer">
+              Updated 2 hours ago
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 pl-lg-2 chart-grid">
+          <div class="card text-center card_border">
+            <div class="card-header chart-grid__header">
+              Line Chart
+            </div>
+            <div class="card-body">
+              <!-- line chart -->
+              <div id="container"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand" ><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                <canvas id="linechart" width="1260" height="630" class="chartjs-render-monitor" style="display: block; height: 350px; width: 700px;">
+                
+                </canvas>
+              </div>
+              <!-- //line chart -->
+            </div>
+            <div class="card-footer text-muted chart-grid__footer">
+              Updated just now
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+</div>

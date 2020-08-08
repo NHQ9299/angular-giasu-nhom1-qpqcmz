@@ -1,0 +1,9 @@
+.news {
+    background: url("https://i.imgur.com/X9t9wlQ.png") 0px 0px no-repeat;
+    width: 100%;
+    background-size: cover;
+    font-family: "Abel-Regular";
+}
+h3{
+  color: #fff;
+}

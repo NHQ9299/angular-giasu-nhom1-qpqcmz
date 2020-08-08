@@ -1,0 +1,174 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.video-w3l {
+    padding: 0;
+    background: url(https://www.upsieutoc.com/images/2019/09/07/Erotic-Tutoring-2016-banner.jpg)no-repeat;
+    min-height:1200px;
+    display: grid;
+}
+/*-- header --*/
+.header-w3l {
+    padding-top: 2em;
+}
+.header-w3l h1 {
+    font-size: 3.5em;
+    color: #fff;
+    letter-spacing: 10px;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 4px 5px 8px #101010;
+    font-style: italic;
+}
+.header-w3l h1 span {
+    color: #FF5722;
+}
+/*-- //header --*/
+/*-- main --*/
+.sub-main-w3 {
+    width: 30%;
+    margin:111px auto;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    padding: 50px;
+}
+.sub-main-w3 h2 {
+    color: #fff;
+    font-size: 1.8em;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+}
+.sub-main-w3 i {
+    margin-left: 10px;
+}
+.pom-agile {
+    padding: 11px 15px;
+    background: #fff;
+    margin-bottom: 23px;
+	border: 1px solid #060606;
+}
+.pom-agile input[type="text"], .pom-agile input[type="password"] {
+    outline: none;
+    font-size: .9em;
+    border: none;
+    background: transparent;
+    width: 93%;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.right-w3l input[type="submit"] {
+    color: #fff;
+    background: #FF5722;
+    border: none;
+    padding: 12px 58px;
+    margin-top: 30px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: .9em;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.right-w3l input[type="submit"]:hover {
+    background: #000;
+	-webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	transition: 0.5s all;
+}
+span.fa {
+    float: right;
+    color: #FF5722;
+    line-height:1.5;
+    margin-left: 10px;
+}
+.sub-agile {
+    float: left;
+}
+.sub-agile input[type="checkbox"] {
+    display: none;
+}
+.sub-agile input[type="checkbox"]+label {
+    position: relative;
+    padding-left: 25px;
+    display: inline-block;
+    font-size: .9em;
+    color: #fff;
+    cursor: pointer;
+}
+.sub-agile input[type="checkbox"]+label span:first-child {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+}
+.sub-agile input[type="checkbox"]:checked+label span:first-child:before {
+    content: "";
+    background: url(../images/tick.png)no-repeat;
+    position: absolute;
+    left: 2px;
+    top: 1px;
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+}
+.sub-w3l a {
+    float: right;
+    font-size: .9em;
+    color: #fff;
+    letter-spacing: 1px;
+}
+/*--placeholder-color--*/
+::-webkit-input-placeholder{
+	color:#000;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #000; 
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #000;  
+}
+:-ms-input-placeholder {  
+   color: #000;  
+}
+/*--//placeholder-color--*/
+/*--//main--*/
+/*--footer--*/
+.footer p {
+    font-size: .9em;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.footer p a {
+    color: #FF5722;
+	-webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	transition: 0.5s all;
+}
+.footer p a:hover {
+    color: #fff;
+	-webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	transition: 0.5s all;
+}
+/*--//footer--*/
